@@ -1,47 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Eloy Francisco Martinez Cabello">
-    <meta name="description" content="Portafolio Eloy Martinez">
-    <title>Eloy Martinez</title>
-    <link rel="stylesheet" href="style/home.css">
-</head>
-<body>
-    <header>
-        <nav class="menu">
-            <a href="about">ABOUT</a>
-            <a href="web-designer">WEB DESIGNER</a>
-            <a href="programming">PROGRAMMING</a>
-            <a href="contact">CONTACT ME</a>
-            <a href="https://www.linkedin.com/in/eloymarca/">LinkedIn</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Eloy Martinez | Programmer</h1>
-        <img src="images/profile.jpg" alt="Hi, i am Eloy">
-        <p>
-            Hello! I welcome you to my portfolio, where you can learn more about me and my work. My name is Eloy, and I am a web designer and programmer passionate about technology and creativity. I have experience developing dynamic, responsive, and attractive websites using languages like HTML, CSS, JavaScript, PHP, and frameworks like Bootstrap, WordPress, etc. I also have knowledge of programming with Python and C# and the use of tools like Numpy, Panda, Jupyter Notebook, etc., which allow me to create innovative solutions for different problems. I like learning new things and keeping up with trends and advances in the fields of design and programming. On this page, you can see some of the projects I've done, both personal and professional, as well as my academic background and skills. If you are interested in my work and want to contact me, you can do so through my email, my phone, or my social networks. I will be delighted to hear your ideas and proposals and to collaborate with you in the future. Thank you very much for visiting my page.
-        </p>
-    
-        <ul class="box">
-            <li><a href="https://medicenhoy.github.io/wdd130/" target="_blank">Personal proyects</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/buenos-aires-argentina-temple?lang=spa" target="_blank">Buenos Aires, Argenntina temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=spa" target="_blank">Sao Paulo, Brazil temple</a></li>
-        </ul>
-    </main>
-    <footer>
-        <p>
-            &copy; 2023 Copyright  🐱‍💻Eloy Martinez🐱‍💻, RS- Brazil
-        </p>
-        <div class="a01">
-            <a title="Logos" href="http://www.facebook.com"><img src="images/Facebook-logo.png" alt="facebook logo"></a>
-            <a title="Logos" href="https://github.com/Medicenhoy"><img src="images/github-icon.png" alt="instagram logo"></a>
-            <a title="Logos" href="http://www.twitter.com"><img src="images/twitter-logo.png" alt="twitter logo"></a>
-        </div>
-    </footer>
-    
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eloy Francisco Martinez Cabello">
+        <meta name="description" content="Portafolio Eloy Martinez">
+        <title>Eloy Martinez</title>
+        <link rel="icon" href="images/logo.png">
+        <link rel="stylesheet" href="style/home.css">
+    </head>
+    <body>
+        <header>
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="Logo de la empresa">
+            </a>
+          </div>
+          <div class="nav">
+            <ul>
+              <li><a href="inicio.html">Inicio</a></li>
+              <li><a href="portafolio.html">Portafolio</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </header>
+        <!-- Resto del contenido de tu página -->
+        <section class="hero">
+            <div class="hero-content">
+              <h1>Hello!</h1>
+              <p>Hello! Welcome you to my portfolio, where you can learn more about me and my work. My name is Eloy, and I am a web designer and programmer passionate about technology and creativity. I have experience developing dynamic, responsive, and attractive websites using languages like HTML, CSS, JavaScript, PHP, and frameworks like Bootstrap, WordPress, etc. I also have knowledge of programming with Python and C# and the use of tools like Numpy, Panda, Jupyter Notebook, etc., which allow me to create innovative solutions for different problems. I like learning new things and keeping up with trends and advances in the fields of design and programming. On this page, you can see some of the projects I've done, both personal and professional, as well as my academic background and skills. If you are interested in my work and want to contact me, you can do so through my email, my phone, or my social networks. I will be delighted to hear your ideas and proposals and to collaborate with you in the future. Thank you very much for visiting my page.</p>
+              <a href="servicios.html" class="cta-button">Explore mis servicios</a>
+            </div>
+          </section>
+          <section class="section">
+            <div class="column">
+              <div class="container">
+                <img src="images/servicios.jpg" alt="Imagen">
+              </div>
+            </div>
+            <div class="column">
+              <h2>Sección de Servicios</h2>
+              <p>Bienvenido a nuestra página web. Aquí encontrarás una amplia gama de servicios que ofrecemos para satisfacer tus necesidades. Estamos comprometidos en brindar soluciones de calidad y crear experiencias únicas para nuestros clientes. Explora nuestros servicios y contáctanos para obtener más información.</p>
+              <a href="servicios.html">Ver servicios</a>
+            </div>
+          </section>
+          <section>
+            <h2>Galería de imágenes</h2>
+            <div class="gallery">
+              <img src="images/set-02.jpg" alt="Imagen 1">
+              <img src="images/set-08.jpg" alt="Imagen 2">
+              <img src="images/set-03.jpg" alt="Imagen 3">
+              <img src="images/set-04.jpg" alt="Imagen 4">
+              <img src="images/set-06.jpg" alt="Imagen 5">
+              <img src="images/set-07.jpg" alt="Imagen 6">
+            </div>
+          </section>
+          <footer class="footer">
+            <div class="footer-logo">
+              <img src="images/logo.png" alt="Logo de la empresa">
+              
+            </div>
+            <div class="footer-list">
+                <ul>
+                  <li><a href="#">Enlace 1</a></li>
+                  <li><a href="#">Enlace 2</a></li>
+                  <li><a href="#">Enlace 3</a></li>
+                </ul>
+              </div>
+              <div class="footer-legal">
+                <ul>
+                  <li><a href="#">Términos y condiciones</a></li>
+                  <li><a href="#">Política de privacidad</a></li>
+                  <li><a href="#">Aviso legal</a></li>
+                </ul>
+              </div>
+            <div class="footer-social">
+              <button><a target="_blank" href="https://github.com"><img class="logito" src="images/github-icon.png" alt="GitHub"></a></button>
+              <button><a target="_blank" href="https://linkedin.com"><img class="logito" src="images/Linkedin.png" alt="LinkedIn"></a></button>
+              <button><a target="_blank" href="https://twitter.com"><img class="logito" src="images/twitter-logo.png" alt="Twitter"></a></button>
+              <button><a target="_blank" href="https://facebook.com"><img class="logito" src="images/Facebook-logo.png" alt="Facebook"></a></button>
+            </div>
+          </footer>
+    </body>
 </html>
