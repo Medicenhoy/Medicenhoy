@@ -1,16 +1,32 @@
-## Hi there 👋
+# 👋 Hi, I'm Eloy!
 
-<!--
-**Medicenhoy/Medicenhoy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm passionate about **technology, software development, and data analysis**. I'm currently studying **Software Development** at BYU-Idaho (Pathway) and specialize in **Python, C#, and SQL**. I'm also exploring key tools in the data analytics world like **R, Power BI, and NumPy**.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Technologies & Tools
+
+- 💻 **Languages:** Python | C# | SQL
+- 📊 **Data Analytics:** R | Power BI | Pandas | NumPy
+- 🛢 **Databases:** MySQL | PostgreSQL | SQL Server
+- 🔧 **Tools & Frameworks:** Git | GitHub | Jupyter Notebook | .NET
+- 🌎 **Languages:** Spanish (native), English (advanced), Portuguese (fluent)
+
+---
+
+## 📂 Featured Projects
+
+### 🔹 [Data Analysis with SQL](#) *(Academic Project)*
+Developed a data analysis project using SQL to extract, transform, and visualize relevant information.
+
+*(More projects coming soon...)*
+
+---
+
+## 📫 Connect with Me
+
+- 📧 Email: eloymc95@gmail.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/eloymarca
+- 📂 GitHub: https://github.com/Medicenhoy
+
+Thanks for visiting my profile! 🚀
